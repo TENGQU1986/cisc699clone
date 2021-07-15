@@ -7,12 +7,12 @@ exports[`should render Parent component 1`] = `
   <div
     class="App"
   >
-    <div
-      class="header"
-    >
-      <span />
-      <span />
-    </div>
+    <h1>
+      Rendering Times Demo
+    </h1>
+    <span>
+      hint: you can open developer tools to see the differentces
+    </span>
     <div
       class="parent"
     >
@@ -44,64 +44,6 @@ exports[`should render Parent component 1`] = `
         Child without Memoization - 
         0
       </h1>
-    </div>
-    <div
-      class="comments"
-    >
-      <span
-        class="comment_summary"
-      >
-        Comments: 
-        2
-         
-      </span>
-      <div
-        class="input_area"
-      >
-        <form>
-          <input
-            type="text"
-            value=""
-          />
-          <button
-            type="submit"
-          >
-            Post your Comment
-          </button>
-        </form>
-      </div>
-      <div
-        class="comment"
-      >
-        <div>
-          <div
-            class="comment_card"
-          >
-            <span
-              class="comment_author"
-            >
-              test2@example.com
-            </span>
-            <h4>
-              Hello there!
-            </h4>
-          </div>
-        </div>
-        <div>
-          <div
-            class="comment_card"
-          >
-            <span
-              class="comment_author"
-            >
-              quteng.bo@gmail.co
-            </span>
-            <h4>
-              thanks for sharing
-            </h4>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
 </div>

@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `
+<div>
+  <div
+    class="comments"
+  >
+    <span
+      class="comment_summary"
+    >
+      Comments: 
+      2
+       
+    </span>
+    <div
+      class="input_area"
+    >
+      <form>
+        <div
+          class="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
+          style="margin: 8px;"
+        >
+          <label
+            class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
+            data-shrink="true"
+            for="standard-full-width"
+            id="standard-full-width-label"
+          >
+            Comment
+          </label>
+          <div
+            class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+          >
+            <input
+              aria-describedby="standard-full-width-helper-text"
+              aria-invalid="false"
+              class="MuiInputBase-input MuiInput-input"
+              id="standard-full-width"
+              placeholder="Type comment here"
+              type="text"
+              value=""
+            />
+          </div>
+          <p
+            class="MuiFormHelperText-root"
+            id="standard-full-width-helper-text"
+          >
+            Don't contain personal information
+          </p>
+        </div>
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+          tabindex="0"
+          type="submit"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Post your Comment
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </form>
+    </div>
+    <div
+      class="comment"
+    >
+      <div>
+        <div
+          class="comment_card"
+        >
+          <span
+            class="comment_author"
+          >
+            terryqu2021@gmail.com
+          </span>
+          <h4>
+            Hello there!
+          </h4>
+        </div>
+      </div>
+      <div>
+        <div
+          class="comment_card"
+        >
+          <span
+            class="comment_author"
+          >
+            quteng.bo@gmail.com
+          </span>
+          <h4>
+            thanks for sharing
+          </h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`rendering correctly should render correctly 1`] = `
+<div>
+  <div
+    class="comments"
+  >
+    <span
+      class="comment_summary"
+    >
+      Comments: 
+      2
+       
+    </span>
+    <div
+      class="input_area"
+    >
+      <form>
+        <div
+          class="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
+          style="margin: 8px;"
+        >
+          <label
+            class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
+            data-shrink="true"
+            for="standard-full-width"
+            id="standard-full-width-label"
+          >
+            Comment
+          </label>
+          <div
+            class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+          >
+            <input
+              aria-describedby="standard-full-width-helper-text"
+              aria-invalid="false"
+              class="MuiInputBase-input MuiInput-input"
+              id="standard-full-width"
+              placeholder="Type comment here"
+              type="text"
+              value=""
+            />
+          </div>
+          <p
+            class="MuiFormHelperText-root"
+            id="standard-full-width-helper-text"
+          >
+            Don't contain personal information
+          </p>
+        </div>
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+          tabindex="0"
+          type="submit"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Post your Comment
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </form>
+    </div>
+    <div
+      class="comment"
+    >
+      <div>
+        <div
+          class="comment_card"
+        >
+          <span
+            class="comment_author"
+          >
+            terryqu2021@gmail.com
+          </span>
+          <h4>
+            Hello there!
+          </h4>
+        </div>
+      </div>
+      <div>
+        <div
+          class="comment_card"
+        >
+          <span
+            class="comment_author"
+          >
+            quteng.bo@gmail.com
+          </span>
+          <h4>
+            thanks for sharing
+          </h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

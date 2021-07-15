@@ -6,6 +6,9 @@ exports[`should render Header component 1`] = `
     class="header"
   >
     <span />
+    <span>
+      Websites Performance Analysis Forum
+    </span>
     <span />
   </div>
 </div>
